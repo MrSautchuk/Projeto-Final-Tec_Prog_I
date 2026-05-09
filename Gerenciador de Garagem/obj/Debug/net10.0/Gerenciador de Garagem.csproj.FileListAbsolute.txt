@@ -1,0 +1,98 @@
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\appsettings.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\Gerenciador de Garagem.staticwebassets.runtime.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\Gerenciador de Garagem.staticwebassets.endpoints.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\Gerenciador de Garagem.exe
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\Gerenciador de Garagem.deps.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\Gerenciador de Garagem.runtimeconfig.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\Gerenciador de Garagem.dll
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\bin\Debug\net10.0\Gerenciador de Garagem.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.AssemblyInfoInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.AssemblyInfo.cs
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.csproj.CoreCompileInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.RazorAssemblyInfo.cache
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.RazorAssemblyInfo.cs
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.sourcelink.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\scopedcss\bundle\Gerenciador de Garagem.styles.css
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\scopedcss\projectbundle\Gerenciador de Garagem.bundle.scp.css
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\h4s7524lr5-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\04ib5ya4xe-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\l3lktesqjy-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\26vwxzp0db-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\evq72qh8a1-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\yndbq2r3wv-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\y7qcdz4ta1-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\qpgsb79x17-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\y0kqfxtrw8-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\58423uqyza-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\ldk8qgr1s3-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\7mhlw9f4mx-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\9y88096nb7-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\ujzuuqy2y0-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\frjqfmvms2-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\95cjtv5x64-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\e2pgr2g0v8-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\iou3nfdvwy-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\hn982z9v85-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\q2pgfdx3oo-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\736qqjhwk9-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\chr4kmxcka-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\jh9iz8xiod-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\5b8znwdpgn-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\svyeixo2pn-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\zk3kl043r7-{0}-06098lyss8-06098lyss8.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\gugz9mozba-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\5cjsmxsqat-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\pda0it52on-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\iqxqqt58iw-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\5izy648udt-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\ohxtdyh1ts-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\05np0n31j4-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\0hw554nz3s-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\0fo4ih9fgv-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\x678vqdftg-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\ylfo4jhnip-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\9rcvnvtmfe-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\zn0zhtftm8-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\tuvcztc6lh-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\nbbfdqh1o6-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\nyagsaqjnd-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\nrhkljrly1-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\0u9ktcauwx-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\chr21adlzj-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\uk0b2cxxae-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\0rsczjqgo5-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\7a9c5v4un3-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\0ndi659svl-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\6oh3s2j7tk-{0}-356vix0kms-356vix0kms.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\nc674uc4ng-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\1w88nddag7-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\35se7gooyo-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\rqd07izwgm-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\qfe9kie4ed-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\it76x8h86l-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\vis8o052ir-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\2dfizoezwv-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\ogleecd5rw-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\w9a8wp6usv-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\di7dvs9gbc-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\kr785044mw-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\7hnzvwum7j-{0}-7ukkjm264x-7ukkjm264x.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\compressed\rdj190t1fk-{0}-7ukkjm264x-7ukkjm264x.gz
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.dll
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\refint\Gerenciador de Garagem.dll
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\Gerenciador de Garagem.genruntimeconfig.cache
+C:\Users\allan\OneDrive\Área de Trabalho\Projeto Tec. Prog\Gerenciador de Garagem\obj\Debug\net10.0\ref\Gerenciador de Garagem.dll
