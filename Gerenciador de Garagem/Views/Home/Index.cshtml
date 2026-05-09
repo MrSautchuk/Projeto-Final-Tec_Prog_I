@@ -1,0 +1,33 @@
+﻿@model List<Veiculo>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    @{
+        ViewData["Title"] = "Home Page";
+    }
+
+    @foreach(Veiculo m in Model)
+            {
+            <div class="vehicle-card-oem-mobile_Link__boBGD">
+                <div>
+                    <picture>
+                        <img src="../../wwwroot/favicon.ico" alt="Não apareceu nada">
+                    </picture>
+                </div>
+                <div></div>
+            </div>
+            }
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <h2>Hi</h2>
+        <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+
+</body>
+</html>
