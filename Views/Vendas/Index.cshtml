@@ -1,0 +1,52 @@
+@if (User.IsInRole("Gerente"))
+{
+    <partial name="_MenuGerente" />
+}
+else
+{
+    <partial name="_MenuVendedor" />
+}
+@model IEnumerable<GestaoGaragem.Models.Venda>
+
+@{
+    ViewData["Title"] = "Histórico de Vendas";
+}
+
+<div class="container card p-4 border-0 shadow-sm mb-5 mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold" style="color: #2e2e37;">Histórico de Vendas</h2>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-borderless table-hover align-middle">
+            <thead class="border-bottom text-muted">
+            <tr>
+                <th>Veículo (Modelo/Placa)</th>
+                <th>Vendedor</th>
+                <th>Data da Venda</th>
+                <th>Valor Final</th>
+                <th>Cliente</th>
+                <th class="text-center">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td>@(item.Veiculo?.Modelo) / @(item.Veiculo?.Placa)</td>
+                    <td>@(item.Usuario?.NomeUsuario)</td>
+                    <td>@item.DataVenda.ToShortDateString()</td>
+                    <td>@item.ValorFinal.ToString("C")</td>
+                    <td>@item.NomeCliente</td>
+                    <td class="text-center">
+                        <div class="btn-group" role="group">
+                            <form asp-action="Delete" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Deseja estornar esta venda?');">
+                                <button type="submit" class="btn btn-sm btn-danger">Excluir</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+</div>

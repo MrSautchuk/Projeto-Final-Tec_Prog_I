@@ -1,0 +1,49 @@
+@model GestaoGaragem.Models.Veiculo
+
+@{
+    ViewData["Title"] = "Excluir Veículo";
+}
+
+<div class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">Atenção!</h4>
+    <p>Você tem certeza que deseja excluir este veículo? Esta ação não poderá ser desfeita.</p>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-dark text-white">
+        <h5 class="mb-0">Detalhes do Veículo</h5>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Marca)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Marca)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Modelo)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Modelo)</dd>
+
+            <dt class="col-sm-3">Ano (Fab/Mod)</dt>
+            <dd class="col-sm-9">@Model.AnoFabricacao / @Model.AnoModelo</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Placa)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Placa)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Valor)</dt>
+            <dd class="col-sm-9">@Model.Valor.ToString("C")</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Status)</dt>
+            <dd class="col-sm-9">
+                <span class="badge @(Model.Status == "Disponível" || Model.Status == "Disponivel" ? "bg-success" : "bg-secondary")">
+                    @Html.DisplayFor(model => model.Status)
+                </span>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>

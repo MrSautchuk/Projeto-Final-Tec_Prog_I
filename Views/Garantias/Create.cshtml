@@ -1,0 +1,54 @@
+@model GestaoGaragem.Models.Garantia
+
+@{
+    ViewData["Title"] = "Vincular Garantia";
+}
+
+<div class="container mt-4">
+    <div class="card p-4 border-0 shadow-sm mx-auto" style="max-width: 800px;">
+        <h3 class="fw-bold mb-4" style="color: #2e2e37;">Vincular Garantia</h3>
+        
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            
+            <div class="mb-3">
+                <label asp-for="VendaId" class="form-label">Código da Venda</label>
+                <select asp-for="VendaId" class="form-select" asp-items="ViewBag.VendaId">
+                    <option value="">Selecione uma Venda...</option>
+                </select>
+                <span asp-validation-for="VendaId" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="DataInicio" class="form-label">Data de Início</label>
+                    <input asp-for="DataInicio" class="form-control" type="date" />
+                    <span asp-validation-for="DataInicio" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label asp-for="DataFim" class="form-label">Data de Fim</label>
+                    <input asp-for="DataFim" class="form-control" type="date" />
+                    <span asp-validation-for="DataFim" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Status" class="form-label">Status</label>
+                <select asp-for="Status" class="form-select">
+                    <option value="Ativa" selected>Ativa</option>
+                    <option value="Expirada">Expirada</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-end gap-2 mt-4">
+                <a asp-action="Index" class="btn btn-outline-secondary fw-bold">Cancelar</a>
+                <button type="submit" class="btn text-white fw-bold" style="background-color: #e0121a;">Salvar Garantia</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

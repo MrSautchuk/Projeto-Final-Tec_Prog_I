@@ -1,0 +1,79 @@
+@model GestaoGaragem.Models.Veiculo
+
+@{
+    ViewData["Title"] = "Editar Veículo";
+}
+
+<div class="container mt-4">
+    <div class="card p-4 border-0 shadow-sm mx-auto" style="max-width: 800px;">
+        <h3 class="fw-bold mb-4" style="color: #2e2e37;">Editar Veículo</h3>
+        
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="FotoBase64" />
+            
+            <div class="mb-3">
+                <label asp-for="Marca" class="form-label"></label>
+                <input asp-for="Marca" class="form-control" />
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label asp-for="Modelo" class="form-label"></label>
+                <input asp-for="Modelo" class="form-control" />
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="AnoFabricacao" class="form-label">Ano Fabricação</label>
+                    <input asp-for="AnoFabricacao" class="form-control" type="number" />
+                    <span asp-validation-for="AnoFabricacao" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label asp-for="AnoModelo" class="form-label">Ano Modelo</label>
+                    <input asp-for="AnoModelo" class="form-control" type="number" />
+                    <span asp-validation-for="AnoModelo" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Placa" class="form-label"></label>
+                    <input asp-for="Placa" class="form-control" />
+                    <span asp-validation-for="Placa" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Valor" class="form-label"></label>
+                    <input asp-for="Valor" class="form-control" type="number" step="0.01" />
+                    <span asp-validation-for="Valor" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Status" class="form-label"></label>
+                <select asp-for="Status" class="form-select">
+                    <option value="Disponivel">Disponível</option>
+                    <option value="Vendido">Vendido</option>
+                    <option value="Manutencao">Em Manutenção</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Alterar Foto (Opcional)</label>
+                <input type="file" name="novaFoto" class="form-control" accept="image/*" />
+            </div>
+
+            <div class="d-flex justify-content-end gap-2 mt-4">
+                <a asp-action="Index" class="btn btn-outline-secondary fw-bold">Cancelar</a>
+                <button type="submit" class="btn text-white fw-bold" style="background-color: #e0121a;">Salvar Alterações</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

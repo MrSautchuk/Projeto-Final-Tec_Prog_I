@@ -1,0 +1,65 @@
+@model GestaoGaragem.Models.Venda
+
+@{
+    ViewData["Title"] = "Registrar Nova Venda";
+}
+
+<div class="container mt-4">
+    <div class="card p-4 border-0 shadow-sm mx-auto" style="max-width: 800px;">
+        <h3 class="fw-bold mb-4" style="color: #2e2e37;">Registrar Nova Venda</h3>
+        
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            
+            <div class="mb-3">
+                <label asp-for="VeiculoId" class="form-label">Veículo</label>
+                <select asp-for="VeiculoId" class="form-select" asp-items="ViewBag.VeiculoId">
+                    <option value="">Selecione um Veículo...</option>
+                </select>
+                <span asp-validation-for="VeiculoId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="UsuarioId" class="form-label">Vendedor</label>
+                <select asp-for="UsuarioId" class="form-select" asp-items="ViewBag.UsuarioId">
+                    <option value="">Selecione o Vendedor...</option>
+                </select>
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="NomeCliente" class="form-label">Nome do Cliente</label>
+                <input asp-for="NomeCliente" class="form-control" placeholder="Nome Completo do Cliente" />
+                <span asp-validation-for="NomeCliente" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="CpfCliente" class="form-label">CPF do Cliente</label>
+                    <input asp-for="CpfCliente" class="form-control" placeholder="000.000.000-00" />
+                    <span asp-validation-for="CpfCliente" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label asp-for="DataVenda" class="form-label">Data da Venda</label>
+                    <input asp-for="DataVenda" class="form-control" type="date" />
+                    <span asp-validation-for="DataVenda" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ValorFinal" class="form-label">Valor Final</label>
+                <input asp-for="ValorFinal" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="ValorFinal" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-end gap-2 mt-4">
+                <a asp-action="Index" class="btn btn-outline-secondary fw-bold">Cancelar</a>
+                <button type="submit" class="btn text-white fw-bold" style="background-color: #e0121a;">Registrar Venda</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

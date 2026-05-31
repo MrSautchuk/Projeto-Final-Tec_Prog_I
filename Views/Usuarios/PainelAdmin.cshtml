@@ -1,0 +1,113 @@
+@model IEnumerable<GestaoGaragem.Models.Usuario>
+<partial name="_MenuAdmin" />
+
+@{
+    ViewData["Title"] = "Painel Administrativo - Usuários";
+}
+
+<style>
+    .btn-wm-primary {
+        background-color: #e0121a;
+        border-color: #e0121a;
+        color: white;
+        font-weight: 600;
+    }
+    .btn-wm-primary:hover {
+        background-color: #c01016;
+        border-color: #c01016;
+        color: white;
+    }
+    .profile-img {
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #e5e7eb;
+    }
+</style>
+
+<div class="container card p-4 border-0 shadow-sm mb-5 mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold" style="color: #2e2e37;">Gerenciamento de Usuários</h2>
+        <button type="button" class="btn btn-wm-primary" data-bs-toggle="modal" data-bs-target="#modalCadastrarUsuario">
+            <i class="bi bi-plus-circle"></i> Cadastrar Novo Usuário
+        </button>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-borderless table-hover align-middle mb-0">
+            <thead class="border-bottom text-muted">
+            <tr>
+                <th style="width: 70px;">Foto</th>
+                <th>Nome de Usuário</th>
+                <th>Perfil</th>
+                <th class="text-center">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr class="border-bottom">
+                    <td>
+                    @if (!string.IsNullOrEmpty(item.FotoBase64))
+                        {
+                            <img src="data:image/jpeg;base64,@item.FotoBase64" class="profile-img" alt="@item.NomeUsuario" />
+                        }
+                    else
+                    {
+                        <img src="https://placehold.co/100?text=3x4" class="profile-img" alt="Sem foto" />
+                    }
+                    </td>
+                    <td>@item.NomeUsuario</td>
+                    <td><span class="badge bg-secondary">@item.Perfil</span></td>
+                    <td class="text-center">
+                    <form asp-action="ExcluirUsuario" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Tem certeza que deseja excluir o usuário @item.NomeUsuario?');">
+                        <button type="submit" class="btn btn-sm btn-outline-danger">Excluir</button>
+                    </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+</div>
+
+<!-- Modal Cadastrar Usuário -->
+<div class="modal fade" id="modalCadastrarUsuario" tabindex="-1" aria-labelledby="modalCadastrarUsuarioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title fw-bold" id="modalCadastrarUsuarioLabel">Cadastrar Novo Usuário</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="CadastrarUsuario" method="post" enctype="multipart/form-data">
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label name="NomeUsuario" class="form-label">Nome de Usuário</label>
+                        <input name="NomeUsuario" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label name="Senha" class="form-label">Senha</label>
+                        <input name="Senha" type="password" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Foto</label>
+                        <input type="file" name="foto" class="form-control" accept="image/*" />
+                    </div>
+                    <div class="mb-3">
+                        <label name="Perfil" class="form-label">Perfil</label>
+                        <select name="Perfil" class="form-select" required>
+                            <option value="">Selecione...</option>
+                            <option value="Admin">Admin</option>
+                            <option value="Gerente">Gerente</option>
+                            <option value="Vendedor">Vendedor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-wm-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

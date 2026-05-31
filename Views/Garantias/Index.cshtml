@@ -1,0 +1,58 @@
+<partial name="_MenuGerente" />
+@model IEnumerable<GestaoGaragem.Models.Garantia>
+
+@{
+    ViewData["Title"] = "Garantias";
+}
+
+<div class="container card p-4 border-0 shadow-sm mb-5 mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold" style="color: #2e2e37;">Garantias</h2>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-borderless table-hover align-middle">
+            <thead class="border-bottom text-muted">
+            <tr>
+                <th>Código da Venda</th>
+                <th>Cliente</th>
+                <th>Data de Início</th>
+                <th>Data de Fim</th>
+                <th>Status</th>
+                <th class="text-center">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td>@item.VendaId</td>
+                    <td>@(item.Venda?.NomeCliente)</td>
+                    <td>@item.DataInicio.ToShortDateString()</td>
+                    <td>@item.DataFim.ToShortDateString()</td>
+                    <td>
+                        @if (item.Status == "Ativa")
+                        {
+                            <span class="badge bg-success">Ativa</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">@(string.IsNullOrEmpty(item.Status) ? "Expirada" : item.Status)</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <div class="d-flex justify-content-center align-items-center gap-2">
+                            <form asp-action="Estender" asp-route-id="@item.Id" method="post" class="d-flex gap-1 mb-0">
+                                <select name="dias" class="form-select form-select-sm" style="width: auto;">
+                                    <option value="30">+30 dias</option>
+                                    <option value="90">+90 dias</option>
+                                </select>
+                                <button type="submit" class="btn btn-sm btn-warning fw-bold">Estender</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+</div>

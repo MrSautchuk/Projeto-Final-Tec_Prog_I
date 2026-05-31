@@ -1,0 +1,89 @@
+@model GestaoGaragem.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+    body {
+        background-color: #f3f5f8 !important;
+    }
+    .login-container {
+        min-height: calc(100vh - 180px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login-card {
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        padding: 2.5rem 2rem;
+        background-color: #ffffff;
+    }
+    .login-title {
+        color: #e0121a;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        margin-bottom: 2rem;
+    }
+    .btn-wm {
+        background-color: #e0121a;
+        border-color: #e0121a;
+        color: #ffffff;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 0.8rem;
+    }
+    .btn-wm:hover {
+        background-color: #c01016;
+        border-color: #c01016;
+        color: #ffffff;
+    }
+    .form-control {
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        border: 1px solid #d1d5db;
+    }
+    .form-label {
+        font-weight: 600;
+        color: #4b5563;
+    }
+</style>
+
+<div class="login-container container">
+    <div class="col-md-6 col-lg-4 mx-auto">
+        <div class="card login-card">
+            <h3 class="text-center login-title">Gestão Garagem</h3>
+            
+            @if (ViewBag.Erro != null)
+            {
+                <div class="alert alert-danger text-center" style="border-radius: 8px;" role="alert">
+                    @ViewBag.Erro
+                </div>
+            }
+
+            <form asp-action="Login" method="post">
+                <div class="mb-3">
+                    <label asp-for="NomeUsuario" class="form-label">Usuário</label>
+                    <input asp-for="NomeUsuario" class="form-control" placeholder="Digite seu usuário" required />
+                    <span asp-validation-for="NomeUsuario" class="text-danger"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Senha" class="form-label">Senha</label>
+                    <input asp-for="Senha" type="password" class="form-control" placeholder="Digite sua senha" required />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid mt-4">
+                    <button type="submit" class="btn btn-wm">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
