@@ -1,4 +1,4 @@
-# 🚗 Gestão Garagem - Multi-brand Management System
+# 🚗 Gestão Garagem
 
 Este projeto é uma aplicação web completa voltada para o gerenciamento de garagens multimarcas, adotando uma identidade visual moderna e minimalista inspirada na plataforma **Webmotors** (tons de vermelho, cinza claro, branco e design responsivo baseado em cards).
 
