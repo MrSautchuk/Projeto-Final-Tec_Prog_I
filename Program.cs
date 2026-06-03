@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -14,16 +14,15 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     .AddCookie(options =>
     {
         options.LoginPath = "/Usuarios/Login"; // Redireciona para cá caso não esteja logado
-        options.AccessDeniedPath = "/Usuarios/Login"; // Opcional: para onde ir se não tiver permissão
+        options.AccessDeniedPath = "/Usuarios/Login"; // se não tiver permissão
     });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// http request
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -50,7 +49,7 @@ using (var scope = app.Services.CreateScope())
         context.Usuarios.Add(new GestaoGaragem.Models.Usuario
         {
             NomeUsuario = "admin",
-            Senha = "123", // Altere se quiser outra senha
+            Senha = "123",
             Perfil = "Admin"
         });
         context.SaveChanges();
